@@ -1,8 +1,8 @@
 {
   "version": "2024.01.16",
   "lastUpdated": "2024-01-15T10:00:00Z",
-  "dataUrl": "https://raw.githubusercontent.com/flooyo/shoppingData/refs/heads/main/data-v2024.01.15.json",
-  "categoriesUrl": "https://raw.githubusercontent.com/flooyo/shoppingData/refs/heads/main/categories-v2024.01.15.json",
+  "dataUrl": "https://raw.githubusercontent.com/flooyo/shoppingData/refs/heads/main/data.json",
+  "categoriesUrl": "https://raw.githubusercontent.com/flooyo/shoppingData/refs/heads/main/categories.json",
   "dataChecksum": "sha256:67c4c30267e04ef67977a1f9dffc06635f7164cbfdea82b446ce7cba31b2ac52",
   "categoriesChecksum": "sha256:f6e0a5fb33d2c7ccd1e7b43c5c499b640f14d126f6ced889c9d0c48cca509672",
   "minAppVersion": "1.0.0",
