@@ -1,0 +1,230 @@
+{
+  "version": "2024.01.15",
+  "lastUpdated": "2024-01-15T10:00:00Z",
+  "locale": "de",
+  "items": [
+    {
+      "itemName": "Brot",
+      "category": "Backwaren",
+      "unit": "Stück",
+      "tags": ["basic", "daily"],
+      "synonyms": ["Laib"],
+      "usageCount": 0,
+      "lastUsed": "2024-01-15T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "itemName": "Milch",
+      "category": "Milchprodukte", 
+      "quantity": 1,
+      "unit": "Liter",
+      "tags": ["basic", "daily"],
+      "synonyms": ["H-Milch", "Vollmilch"],
+      "usageCount": 0,
+      "lastUsed": "2024-01-15T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "itemName": "Butter",
+      "category": "Milchprodukte",
+      "quantity": 250,
+      "unit": "g",
+      "tags": ["basic"],
+      "synonyms": ["Markenbutter"],
+      "usageCount": 0,
+      "lastUsed": "2024-01-15T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "itemName": "Eier",
+      "category": "Milchprodukte",
+      "quantity": 10,
+      "unit": "Stück",
+      "tags": ["basic", "protein"],
+      "synonyms": ["Hühnereier"],
+      "usageCount": 0,
+      "lastUsed": "2024-01-15T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "itemName": "Äpfel",
+      "category": "Obst",
+      "quantity": 1,
+      "unit": "kg",
+      "tags": ["fruit", "healthy"],
+      "synonyms": ["Apfel"],
+      "usageCount": 0,
+      "lastUsed": "2024-01-15T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "itemName": "Bananen",
+      "category": "Obst",
+      "quantity": 1,
+      "unit": "kg",
+      "tags": ["fruit", "healthy"],
+      "synonyms": ["Banane"],
+      "usageCount": 0,
+      "lastUsed": "2024-01-15T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "itemName": "Tomaten",
+      "category": "Gemüse",
+      "quantity": 500,
+      "unit": "g",
+      "tags": ["vegetable", "healthy"],
+      "synonyms": ["Tomate", "Paradeiser"],
+      "usageCount": 0,
+      "lastUsed": "2024-01-15T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "itemName": "Kartoffeln",
+      "category": "Gemüse",
+      "quantity": 2,
+      "unit": "kg",
+      "tags": ["vegetable", "basic"],
+      "synonyms": ["Erdäpfel"],
+      "usageCount": 0,
+      "lastUsed": "2024-01-15T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "itemName": "Hackfleisch",
+      "category": "Fleisch",
+      "quantity": 500,
+      "unit": "g",
+      "tags": ["meat", "protein"],
+      "synonyms": ["Faschiertes", "Gehacktes"],
+      "usageCount": 0,
+      "lastUsed": "2024-01-15T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "itemName": "Hähnchenbrust",
+      "category": "Fleisch",
+      "quantity": 400,
+      "unit": "g",
+      "tags": ["meat", "protein", "lean"],
+      "synonyms": ["Hühnerbrust", "Chicken Breast"],
+      "usageCount": 0,
+      "lastUsed": "2024-01-15T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "itemName": "Nudeln",
+      "category": "Grundnahrungsmittel",
+      "quantity": 500,
+      "unit": "g",
+      "tags": ["pasta", "basic"],
+      "synonyms": ["Pasta", "Spaghetti"],
+      "usageCount": 0,
+      "lastUsed": "2024-01-15T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "itemName": "Reis",
+      "category": "Grundnahrungsmittel",
+      "quantity": 1,
+      "unit": "kg",
+      "tags": ["grain", "basic"],
+      "synonyms": ["Basmati", "Jasmin"],
+      "usageCount": 0,
+      "lastUsed": "2024-01-15T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "itemName": "Olivenöl",
+      "category": "Grundnahrungsmittel",
+      "quantity": 500,
+      "unit": "ml",
+      "tags": ["oil", "cooking"],
+      "synonyms": ["Olive Oil"],
+      "usageCount": 0,
+      "lastUsed": "2024-01-15T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "itemName": "Salz",
+      "category": "Gewürze",
+      "quantity": 500,
+      "unit": "g",
+      "tags": ["spice", "basic"],
+      "synonyms": ["Meersalz", "Speisesalz"],
+      "usageCount": 0,
+      "lastUsed": "2024-01-15T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "itemName": "Pfeffer",
+      "category": "Gewürze",
+      "unit": "Packung",
+      "tags": ["spice", "basic"],
+      "synonyms": ["Schwarzer Pfeffer"],
+      "usageCount": 0,
+      "lastUsed": "2024-01-15T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "itemName": "Kaffee",
+      "category": "Getränke",
+      "quantity": 500,
+      "unit": "g",
+      "tags": ["beverage", "morning"],
+      "synonyms": ["Filterkaffee", "Espresso"],
+      "usageCount": 0,
+      "lastUsed": "2024-01-15T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "itemName": "Tee",
+      "category": "Getränke",
+      "unit": "Packung",
+      "tags": ["beverage", "hot"],
+      "synonyms": ["Schwarztee", "Grüntee"],
+      "usageCount": 0,
+      "lastUsed": "2024-01-15T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "itemName": "Mineralwasser",
+      "category": "Getränke",
+      "quantity": 6,
+      "unit": "Flaschen",
+      "tags": ["beverage", "water"],
+      "synonyms": ["Sprudel", "Wasser"],
+      "usageCount": 0,
+      "lastUsed": "2024-01-15T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "itemName": "Toilettenpapier",
+      "category": "Haushalt",
+      "quantity": 8,
+      "unit": "Rollen",
+      "tags": ["household", "essential"],
+      "synonyms": ["Klopapier", "WC-Papier"],
+      "usageCount": 0,
+      "lastUsed": "2024-01-15T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "itemName": "Waschmittel",
+      "category": "Haushalt",
+      "unit": "Packung",
+      "tags": ["household", "cleaning"],
+      "synonyms": ["Waschpulver", "Flüssigwaschmittel"],
+      "usageCount": 0,
+      "lastUsed": "2024-01-15T10:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z"
+    }
+  ],
+  "metadata": {
+    "totalItems": 20,
+    "regions": ["DE", "AT", "CH"],
+    "languages": ["de", "en"],
+    "dataSource": "Community & Store Data",
+    "updateFrequency": "weekly"
+  }
+}

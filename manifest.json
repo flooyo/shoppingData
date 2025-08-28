@@ -1,0 +1,25 @@
+{
+  "version": "2024.01.15",
+  "lastUpdated": "2024-01-15T10:00:00Z",
+  "dataUrl": "https://your-cdn.com/shopping-data/data-v2024.01.15.json",
+  "categoriesUrl": "https://your-cdn.com/shopping-data/categories-v2024.01.15.json",
+  "checksum": "sha256:abcdef1234567890",
+  "minAppVersion": "1.0.0",
+  "changelog": [
+    {
+      "version": "2024.01.15",
+      "changes": [
+        "Added 150 new grocery items",
+        "Improved category detection keywords",
+        "Added regional items for Bavaria"
+      ]
+    },
+    {
+      "version": "2024.01.10",
+      "changes": [
+        "Initial release with 500+ German grocery items",
+        "22 categories with bilingual support"
+      ]
+    }
+  ]
+}
