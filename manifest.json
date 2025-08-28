@@ -3,7 +3,7 @@
   "lastUpdated": "2024-01-15T10:00:00Z",
   "dataUrl": "https://raw.githubusercontent.com/flooyo/shoppingData/refs/heads/main/data-v2024.01.15.json",
   "categoriesUrl": "https://raw.githubusercontent.com/flooyo/shoppingData/refs/heads/main/categories-v2024.01.15.json",
-  "dataChecksum": "sha256:26e19f969653755d10f49d3f8a0efa1929b878f44347792fa117e9ca2fbc5f2c",
+  "dataChecksum": "sha256:67c4c30267e04ef67977a1f9dffc06635f7164cbfdea82b446ce7cba31b2ac51",
   "categoriesChecksum": "sha256:f6e0a5fb33d2c7ccd1e7b43c5c499b640f14d126f6ced889c9d0c48cca509672",
   "minAppVersion": "1.0.0",
   "changelog": [
