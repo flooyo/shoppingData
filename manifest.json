@@ -1,8 +1,8 @@
 {
   "version": "2024.01.15",
   "lastUpdated": "2024-01-15T10:00:00Z",
-  "dataUrl": "https://your-cdn.com/shopping-data/data-v2024.01.15.json",
-  "categoriesUrl": "https://your-cdn.com/shopping-data/categories-v2024.01.15.json",
+  "dataUrl": "https://raw.githubusercontent.com/flooyo/shoppingData/refs/heads/main/data-v2024.01.15.json",
+  "categoriesUrl": "https://raw.githubusercontent.com/flooyo/shoppingData/refs/heads/main/categories-v2024.01.15.json",
   "checksum": "sha256:abcdef1234567890",
   "minAppVersion": "1.0.0",
   "changelog": [
