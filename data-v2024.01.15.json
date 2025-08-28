@@ -4,7 +4,7 @@
   "locale": "de",
   "items": [
     {
-      "itemName": "Brot",
+      "itemName": "Brot1",
       "category": "Backwaren",
       "unit": "Stück",
       "tags": ["basic", "daily"],
