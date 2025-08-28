@@ -1,5 +1,5 @@
 {
-  "version": "2024.01.16",
+  "version": "2024.01.17",
   "lastUpdated": "2024-01-15T10:00:00Z",
   "categories": [
     {
@@ -8,11 +8,7 @@
       "nameDe": "Backwaren",
       "icon": "bread-slice",
       "color": "#8B4513",
-      "sortOrder": 1,
-      "keywords": {
-        "de": ["brot", "brötchen", "brezel", "kuchen", "gebäck"],
-        "en": ["bread", "roll", "pretzel", "cake", "pastry"]
-      }
+      "sortOrder": 1
     },
     {
       "id": "dairy",
@@ -20,11 +16,7 @@
       "nameDe": "Milchprodukte",
       "icon": "cheese",
       "color": "#FFD700",
-      "sortOrder": 2,
-      "keywords": {
-        "de": ["milch", "butter", "käse", "joghurt", "quark"],
-        "en": ["milk", "butter", "cheese", "yogurt", "cream"]
-      }
+      "sortOrder": 2
     },
     {
       "id": "meat",
@@ -32,11 +24,15 @@
       "nameDe": "Fleisch & Fisch",
       "icon": "food-drumstick",
       "color": "#DC143C",
-      "sortOrder": 3,
-      "keywords": {
-        "de": ["fleisch", "wurst", "fisch", "hähnchen", "rind"],
-        "en": ["meat", "sausage", "fish", "chicken", "beef"]
-      }
+      "sortOrder": 3
+    },
+    {
+      "id": "deli",
+      "nameEn": "Deli & Cold Cuts",
+      "nameDe": "Aufschnitt & Feinkost",
+      "icon": "food",
+      "color": "#FF8C00",
+      "sortOrder": 4
     },
     {
       "id": "fruits",
@@ -44,11 +40,7 @@
       "nameDe": "Obst",
       "icon": "food-apple",
       "color": "#FF6347",
-      "sortOrder": 4,
-      "keywords": {
-        "de": ["apfel", "banane", "orange", "beere", "traube"],
-        "en": ["apple", "banana", "orange", "berry", "grape"]
-      }
+      "sortOrder": 5
     },
     {
       "id": "vegetables",
@@ -56,11 +48,15 @@
       "nameDe": "Gemüse",
       "icon": "carrot",
       "color": "#32CD32",
-      "sortOrder": 5,
-      "keywords": {
-        "de": ["tomate", "gurke", "kartoffel", "zwiebel", "salat"],
-        "en": ["tomato", "cucumber", "potato", "onion", "lettuce"]
-      }
+      "sortOrder": 6
+    },
+    {
+      "id": "herbs-spices",
+      "nameEn": "Herbs & Spices",
+      "nameDe": "Kräuter & Gewürze",
+      "icon": "leaf",
+      "color": "#228B22",
+      "sortOrder": 7
     },
     {
       "id": "beverages",
@@ -68,23 +64,15 @@
       "nameDe": "Getränke",
       "icon": "cup",
       "color": "#4169E1",
-      "sortOrder": 6,
-      "keywords": {
-        "de": ["wasser", "saft", "kaffee", "tee", "cola"],
-        "en": ["water", "juice", "coffee", "tea", "cola"]
-      }
+      "sortOrder": 8
     },
     {
-      "id": "pantry",
-      "nameEn": "Pantry",
-      "nameDe": "Grundnahrungsmittel",
-      "icon": "food-variant",
-      "color": "#D2691E",
-      "sortOrder": 7,
-      "keywords": {
-        "de": ["mehl", "zucker", "reis", "nudeln", "öl"],
-        "en": ["flour", "sugar", "rice", "pasta", "oil"]
-      }
+      "id": "alcohol",
+      "nameEn": "Alcohol",
+      "nameDe": "Alkohol",
+      "icon": "glass-wine",
+      "color": "#8B0000",
+      "sortOrder": 9
     },
     {
       "id": "frozen",
@@ -92,11 +80,39 @@
       "nameDe": "Tiefkühl",
       "icon": "snowflake",
       "color": "#00CED1",
-      "sortOrder": 8,
-      "keywords": {
-        "de": ["eis", "pizza", "pommes", "tiefkühl", "gefroren"],
-        "en": ["ice cream", "pizza", "fries", "frozen"]
-      }
+      "sortOrder": 10
+    },
+    {
+      "id": "pantry",
+      "nameEn": "Pantry",
+      "nameDe": "Grundnahrungsmittel",
+      "icon": "food-variant",
+      "color": "#D2691E",
+      "sortOrder": 11
+    },
+    {
+      "id": "breakfast",
+      "nameEn": "Breakfast & Cereal",
+      "nameDe": "Frühstück & Müsli",
+      "icon": "bowl",
+      "color": "#FFB347",
+      "sortOrder": 12
+    },
+    {
+      "id": "canned",
+      "nameEn": "Canned Goods",
+      "nameDe": "Konserven",
+      "icon": "archive",
+      "color": "#708090",
+      "sortOrder": 13
+    },
+    {
+      "id": "condiments",
+      "nameEn": "Condiments & Sauces",
+      "nameDe": "Würzmittel & Soßen",
+      "icon": "bottle-wine-outline",
+      "color": "#B22222",
+      "sortOrder": 14
     },
     {
       "id": "snacks",
@@ -104,11 +120,23 @@
       "nameDe": "Snacks & Süßigkeiten",
       "icon": "cookie",
       "color": "#FF69B4",
-      "sortOrder": 9,
-      "keywords": {
-        "de": ["chips", "schokolade", "keks", "gummibärchen", "nüsse"],
-        "en": ["chips", "chocolate", "cookie", "candy", "nuts"]
-      }
+      "sortOrder": 15
+    },
+    {
+      "id": "baby",
+      "nameEn": "Baby Products",
+      "nameDe": "Babyprodukte",
+      "icon": "baby-carriage",
+      "color": "#FFB6C1",
+      "sortOrder": 16
+    },
+    {
+      "id": "pet",
+      "nameEn": "Pet Supplies",
+      "nameDe": "Tierbedarf",
+      "icon": "paw",
+      "color": "#8B4726",
+      "sortOrder": 17
     },
     {
       "id": "household",
@@ -116,11 +144,7 @@
       "nameDe": "Haushalt",
       "icon": "home",
       "color": "#9370DB",
-      "sortOrder": 10,
-      "keywords": {
-        "de": ["waschmittel", "spülmittel", "toilettenpapier", "müllbeutel"],
-        "en": ["detergent", "dish soap", "toilet paper", "trash bags"]
-      }
+      "sortOrder": 18
     },
     {
       "id": "hygiene",
@@ -128,11 +152,23 @@
       "nameDe": "Hygiene & Pflege",
       "icon": "shower",
       "color": "#20B2AA",
-      "sortOrder": 11,
-      "keywords": {
-        "de": ["shampoo", "duschgel", "zahnpasta", "seife", "deo"],
-        "en": ["shampoo", "shower gel", "toothpaste", "soap", "deodorant"]
-      }
+      "sortOrder": 19
+    },
+    {
+      "id": "health",
+      "nameEn": "Health & Pharmacy",
+      "nameDe": "Gesundheit & Apotheke",
+      "icon": "medical-bag",
+      "color": "#FF0000",
+      "sortOrder": 20
+    },
+    {
+      "id": "office",
+      "nameEn": "Office & School",
+      "nameDe": "Büro & Schule",
+      "icon": "pencil",
+      "color": "#4682B4",
+      "sortOrder": 21
     },
     {
       "id": "other",
@@ -140,28 +176,7 @@
       "nameDe": "Sonstiges",
       "icon": "dots-horizontal",
       "color": "#A9A9A9",
-      "sortOrder": 99,
-      "keywords": {
-        "de": [],
-        "en": []
-      }
-    }
-  ],
-  "categoryGroups": [
-    {
-      "id": "fresh",
-      "name": "Fresh Products",
-      "categories": ["bakery", "dairy", "meat", "fruits", "vegetables"]
-    },
-    {
-      "id": "packaged",
-      "name": "Packaged Goods",
-      "categories": ["pantry", "frozen", "snacks", "beverages"]
-    },
-    {
-      "id": "non-food",
-      "name": "Non-Food Items",
-      "categories": ["household", "hygiene", "other"]
+      "sortOrder": 99
     }
   ]
 }

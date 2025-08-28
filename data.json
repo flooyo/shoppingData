@@ -1,230 +1,1384 @@
 {
-  "version": "2024.01.16",
+  "version": "2024.01.17",
   "lastUpdated": "2024-01-15T10:00:00Z",
   "locale": "de",
   "items": [
     {
-      "itemName": "Brot1",
-      "category": "Backwaren",
-      "unit": "Stück",
-      "tags": ["basic", "daily"],
-      "synonyms": ["Laib"],
-      "usageCount": 0,
-      "lastUsed": "2024-01-15T10:00:00Z",
-      "createdAt": "2024-01-15T10:00:00Z"
+      "itemName": "Brot",
+      "category": "bakery",
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Brötchen",
+      "category": "bakery",
+      "quantity": 6,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Semmeln",
+      "category": "bakery",
+      "quantity": 6,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Kaisersemmel",
+      "category": "bakery",
+      "quantity": 4,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Vollkornbrot",
+      "category": "bakery",
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Bauernbrot",
+      "category": "bakery",
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Brezel",
+      "category": "bakery",
+      "quantity": 4,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Brezeln",
+      "category": "bakery",
+      "quantity": 5,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Laugenbrezel",
+      "category": "bakery",
+      "quantity": 3,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Laugenbrötchen",
+      "category": "bakery",
+      "quantity": 4,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Croissant",
+      "category": "bakery",
+      "quantity": 3,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Toast",
+      "category": "bakery",
+      "unit": "Packung"
+    },
+    {
+      "itemName": "Pumpernickel",
+      "category": "bakery",
+      "unit": "Packung"
+    },
+    {
+      "itemName": "Körnerbrötchen",
+      "category": "bakery",
+      "quantity": 4,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Kuchen",
+      "category": "bakery",
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Vinschgauer",
+      "category": "bakery",
+      "quantity": 4,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Dampfnudel",
+      "category": "bakery",
+      "quantity": 4,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Rohrnudel",
+      "category": "bakery",
+      "quantity": 4,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Auszogne",
+      "category": "bakery",
+      "quantity": 6,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Laugensemmel",
+      "category": "bakery",
+      "quantity": 4,
+      "unit": "Stück"
     },
     {
       "itemName": "Milch",
-      "category": "Milchprodukte", 
+      "category": "dairy",
       "quantity": 1,
-      "unit": "Liter",
-      "tags": ["basic", "daily"],
-      "synonyms": ["H-Milch", "Vollmilch"],
-      "usageCount": 0,
-      "lastUsed": "2024-01-15T10:00:00Z",
-      "createdAt": "2024-01-15T10:00:00Z"
+      "unit": "Liter"
     },
     {
       "itemName": "Butter",
-      "category": "Milchprodukte",
+      "category": "dairy",
       "quantity": 250,
-      "unit": "g",
-      "tags": ["basic"],
-      "synonyms": ["Markenbutter"],
-      "usageCount": 0,
-      "lastUsed": "2024-01-15T10:00:00Z",
-      "createdAt": "2024-01-15T10:00:00Z"
+      "unit": "g"
     },
     {
-      "itemName": "Eier",
-      "category": "Milchprodukte",
-      "quantity": 10,
-      "unit": "Stück",
-      "tags": ["basic", "protein"],
-      "synonyms": ["Hühnereier"],
-      "usageCount": 0,
-      "lastUsed": "2024-01-15T10:00:00Z",
-      "createdAt": "2024-01-15T10:00:00Z"
+      "itemName": "Käse",
+      "category": "dairy",
+      "quantity": 200,
+      "unit": "g"
     },
     {
-      "itemName": "Äpfel",
-      "category": "Obst",
-      "quantity": 1,
-      "unit": "kg",
-      "tags": ["fruit", "healthy"],
-      "synonyms": ["Apfel"],
-      "usageCount": 0,
-      "lastUsed": "2024-01-15T10:00:00Z",
-      "createdAt": "2024-01-15T10:00:00Z"
+      "itemName": "Gouda",
+      "category": "dairy",
+      "quantity": 200,
+      "unit": "g"
     },
     {
-      "itemName": "Bananen",
-      "category": "Obst",
-      "quantity": 1,
-      "unit": "kg",
-      "tags": ["fruit", "healthy"],
-      "synonyms": ["Banane"],
-      "usageCount": 0,
-      "lastUsed": "2024-01-15T10:00:00Z",
-      "createdAt": "2024-01-15T10:00:00Z"
+      "itemName": "Emmentaler",
+      "category": "dairy",
+      "quantity": 200,
+      "unit": "g"
     },
     {
-      "itemName": "Tomaten",
-      "category": "Gemüse",
+      "itemName": "Mozzarella",
+      "category": "dairy",
+      "quantity": 125,
+      "unit": "g"
+    },
+    {
+      "itemName": "Quark",
+      "category": "dairy",
       "quantity": 500,
-      "unit": "g",
-      "tags": ["vegetable", "healthy"],
-      "synonyms": ["Tomate", "Paradeiser"],
-      "usageCount": 0,
-      "lastUsed": "2024-01-15T10:00:00Z",
-      "createdAt": "2024-01-15T10:00:00Z"
+      "unit": "g"
     },
     {
-      "itemName": "Kartoffeln",
-      "category": "Gemüse",
-      "quantity": 2,
-      "unit": "kg",
-      "tags": ["vegetable", "basic"],
-      "synonyms": ["Erdäpfel"],
-      "usageCount": 0,
-      "lastUsed": "2024-01-15T10:00:00Z",
-      "createdAt": "2024-01-15T10:00:00Z"
+      "itemName": "Joghurt",
+      "category": "dairy",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "itemName": "Sahne",
+      "category": "dairy",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "itemName": "Schmand",
+      "category": "dairy",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "itemName": "Frischkäse",
+      "category": "dairy",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "itemName": "H-Milch",
+      "category": "dairy",
+      "quantity": 1,
+      "unit": "Liter"
+    },
+    {
+      "itemName": "Kefir",
+      "category": "dairy",
+      "quantity": 500,
+      "unit": "ml"
+    },
+    {
+      "itemName": "Obazda",
+      "category": "dairy",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "itemName": "Bierkäse",
+      "category": "dairy",
+      "quantity": 200,
+      "unit": "g"
     },
     {
       "itemName": "Hackfleisch",
-      "category": "Fleisch",
+      "category": "meat",
       "quantity": 500,
-      "unit": "g",
-      "tags": ["meat", "protein"],
-      "synonyms": ["Faschiertes", "Gehacktes"],
-      "usageCount": 0,
-      "lastUsed": "2024-01-15T10:00:00Z",
-      "createdAt": "2024-01-15T10:00:00Z"
+      "unit": "g"
     },
     {
       "itemName": "Hähnchenbrust",
-      "category": "Fleisch",
+      "category": "meat",
       "quantity": 400,
-      "unit": "g",
-      "tags": ["meat", "protein", "lean"],
-      "synonyms": ["Hühnerbrust", "Chicken Breast"],
-      "usageCount": 0,
-      "lastUsed": "2024-01-15T10:00:00Z",
-      "createdAt": "2024-01-15T10:00:00Z"
+      "unit": "g"
     },
     {
-      "itemName": "Nudeln",
-      "category": "Grundnahrungsmittel",
+      "itemName": "Rindfleisch",
+      "category": "meat",
       "quantity": 500,
-      "unit": "g",
-      "tags": ["pasta", "basic"],
-      "synonyms": ["Pasta", "Spaghetti"],
-      "usageCount": 0,
-      "lastUsed": "2024-01-15T10:00:00Z",
-      "createdAt": "2024-01-15T10:00:00Z"
+      "unit": "g"
     },
     {
-      "itemName": "Reis",
-      "category": "Grundnahrungsmittel",
+      "itemName": "Schweinefleisch",
+      "category": "meat",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "itemName": "Bratwurst",
+      "category": "meat",
+      "quantity": 4,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Weißwurst",
+      "category": "meat",
+      "quantity": 6,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Münchner Weißwurst",
+      "category": "meat",
+      "quantity": 6,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Leberkäse",
+      "category": "meat",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "itemName": "Fleischkäse",
+      "category": "meat",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "itemName": "Wiener Würstchen",
+      "category": "meat",
+      "quantity": 4,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Leberwurst",
+      "category": "meat",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "itemName": "Salami",
+      "category": "meat",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "itemName": "Schinken",
+      "category": "meat",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "itemName": "Mortadella",
+      "category": "meat",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "itemName": "Lyoner",
+      "category": "meat",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "itemName": "Bockwurst",
+      "category": "meat",
+      "quantity": 2,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Presssack",
+      "category": "meat",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "itemName": "Sülze",
+      "category": "meat",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "itemName": "Speckwürfel",
+      "category": "meat",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "itemName": "Schweinshaxe",
+      "category": "meat",
       "quantity": 1,
-      "unit": "kg",
-      "tags": ["grain", "basic"],
-      "synonyms": ["Basmati", "Jasmin"],
-      "usageCount": 0,
-      "lastUsed": "2024-01-15T10:00:00Z",
-      "createdAt": "2024-01-15T10:00:00Z"
+      "unit": "Stück"
     },
     {
-      "itemName": "Olivenöl",
-      "category": "Grundnahrungsmittel",
+      "itemName": "Schweinebraten",
+      "category": "meat",
+      "quantity": 1,
+      "unit": "kg"
+    },
+    {
+      "itemName": "Äpfel",
+      "category": "fruits",
+      "quantity": 1,
+      "unit": "kg"
+    },
+    {
+      "itemName": "Bananen",
+      "category": "fruits",
+      "quantity": 1,
+      "unit": "kg"
+    },
+    {
+      "itemName": "Orangen",
+      "category": "fruits",
+      "quantity": 1,
+      "unit": "kg"
+    },
+    {
+      "itemName": "Tomaten",
+      "category": "vegetables",
       "quantity": 500,
-      "unit": "ml",
-      "tags": ["oil", "cooking"],
-      "synonyms": ["Olive Oil"],
-      "usageCount": 0,
-      "lastUsed": "2024-01-15T10:00:00Z",
-      "createdAt": "2024-01-15T10:00:00Z"
+      "unit": "g"
+    },
+    {
+      "itemName": "Gurken",
+      "category": "vegetables",
+      "quantity": 2,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Kartoffeln",
+      "category": "vegetables",
+      "quantity": 2,
+      "unit": "kg"
+    },
+    {
+      "itemName": "Zwiebeln",
+      "category": "vegetables",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "itemName": "Knoblauch",
+      "category": "vegetables",
+      "quantity": 3,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Paprika",
+      "category": "vegetables",
+      "quantity": 3,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Karotten",
+      "category": "vegetables",
+      "quantity": 1,
+      "unit": "kg"
+    },
+    {
+      "itemName": "Salat",
+      "category": "vegetables",
+      "unit": "Kopf"
+    },
+    {
+      "itemName": "Spinat",
+      "category": "vegetables",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "itemName": "Brokkoli",
+      "category": "vegetables",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "itemName": "Blumenkohl",
+      "category": "vegetables",
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Zucchini",
+      "category": "vegetables",
+      "quantity": 2,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Aubergine",
+      "category": "vegetables",
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Champignons",
+      "category": "vegetables",
+      "quantity": 250,
+      "unit": "g"
+    },
+    {
+      "itemName": "Lauch",
+      "category": "vegetables",
+      "unit": "Stange"
+    },
+    {
+      "itemName": "Radieschen",
+      "category": "vegetables",
+      "unit": "Bund"
+    },
+    {
+      "itemName": "Weintrauben",
+      "category": "fruits",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "itemName": "Erdbeeren",
+      "category": "fruits",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "itemName": "Kirschen",
+      "category": "fruits",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "itemName": "Birnen",
+      "category": "fruits",
+      "quantity": 1,
+      "unit": "kg"
+    },
+    {
+      "itemName": "Pfirsiche",
+      "category": "fruits",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "itemName": "Pflaumen",
+      "category": "fruits",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "itemName": "Ananas",
+      "category": "fruits",
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Mango",
+      "category": "fruits",
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Kiwi",
+      "category": "fruits",
+      "quantity": 4,
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Melone",
+      "category": "fruits",
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Avocado",
+      "category": "fruits",
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Mehl",
+      "category": "pantry",
+      "quantity": 1,
+      "unit": "kg"
+    },
+    {
+      "itemName": "Zucker",
+      "category": "pantry",
+      "quantity": 1,
+      "unit": "kg"
     },
     {
       "itemName": "Salz",
-      "category": "Gewürze",
+      "category": "pantry",
       "quantity": 500,
-      "unit": "g",
-      "tags": ["spice", "basic"],
-      "synonyms": ["Meersalz", "Speisesalz"],
-      "usageCount": 0,
-      "lastUsed": "2024-01-15T10:00:00Z",
-      "createdAt": "2024-01-15T10:00:00Z"
+      "unit": "g"
     },
     {
       "itemName": "Pfeffer",
-      "category": "Gewürze",
-      "unit": "Packung",
-      "tags": ["spice", "basic"],
-      "synonyms": ["Schwarzer Pfeffer"],
-      "usageCount": 0,
-      "lastUsed": "2024-01-15T10:00:00Z",
-      "createdAt": "2024-01-15T10:00:00Z"
+      "category": "pantry",
+      "unit": "Packung"
     },
     {
-      "itemName": "Kaffee",
-      "category": "Getränke",
+      "itemName": "Öl",
+      "category": "pantry",
+      "quantity": 1,
+      "unit": "Liter"
+    },
+    {
+      "itemName": "Olivenöl",
+      "category": "pantry",
       "quantity": 500,
-      "unit": "g",
-      "tags": ["beverage", "morning"],
-      "synonyms": ["Filterkaffee", "Espresso"],
-      "usageCount": 0,
-      "lastUsed": "2024-01-15T10:00:00Z",
-      "createdAt": "2024-01-15T10:00:00Z"
+      "unit": "ml"
     },
     {
-      "itemName": "Tee",
-      "category": "Getränke",
-      "unit": "Packung",
-      "tags": ["beverage", "hot"],
-      "synonyms": ["Schwarztee", "Grüntee"],
-      "usageCount": 0,
-      "lastUsed": "2024-01-15T10:00:00Z",
-      "createdAt": "2024-01-15T10:00:00Z"
+      "itemName": "Essig",
+      "category": "pantry",
+      "quantity": 500,
+      "unit": "ml"
+    },
+    {
+      "itemName": "Reis",
+      "category": "pantry",
+      "quantity": 1,
+      "unit": "kg"
+    },
+    {
+      "itemName": "Nudeln",
+      "category": "pantry",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "itemName": "Spaghetti",
+      "category": "pantry",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "itemName": "Haferflocken",
+      "category": "pantry",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "itemName": "Müsli",
+      "category": "pantry",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "itemName": "Hefe",
+      "category": "pantry",
+      "unit": "Würfel"
+    },
+    {
+      "itemName": "Paniermehl",
+      "category": "pantry",
+      "unit": "Packung"
+    },
+    {
+      "itemName": "Tomatenmark",
+      "category": "canned",
+      "unit": "Tube"
+    },
+    {
+      "itemName": "Passierte Tomaten",
+      "category": "canned",
+      "quantity": 500,
+      "unit": "ml"
+    },
+    {
+      "itemName": "Mais",
+      "category": "canned",
+      "unit": "Dose"
+    },
+    {
+      "itemName": "Erbsen",
+      "category": "canned",
+      "unit": "Dose"
+    },
+    {
+      "itemName": "Bohnen",
+      "category": "canned",
+      "unit": "Dose"
+    },
+    {
+      "itemName": "Thunfisch",
+      "category": "canned",
+      "unit": "Dose"
+    },
+    {
+      "itemName": "Sardinen",
+      "category": "canned",
+      "unit": "Dose"
+    },
+    {
+      "itemName": "Gewürzgurken",
+      "category": "canned",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Sauerkraut",
+      "category": "canned",
+      "unit": "Dose"
+    },
+    {
+      "itemName": "Rotkohl",
+      "category": "canned",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Oliven",
+      "category": "canned",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Rote Bete",
+      "category": "canned",
+      "unit": "Glas"
     },
     {
       "itemName": "Mineralwasser",
-      "category": "Getränke",
+      "category": "beverages",
       "quantity": 6,
-      "unit": "Flaschen",
-      "tags": ["beverage", "water"],
-      "synonyms": ["Sprudel", "Wasser"],
-      "usageCount": 0,
-      "lastUsed": "2024-01-15T10:00:00Z",
-      "createdAt": "2024-01-15T10:00:00Z"
+      "unit": "Flaschen"
+    },
+    {
+      "itemName": "Apfelsaft",
+      "category": "beverages",
+      "quantity": 1,
+      "unit": "Liter"
+    },
+    {
+      "itemName": "Orangensaft",
+      "category": "beverages",
+      "quantity": 1,
+      "unit": "Liter"
+    },
+    {
+      "itemName": "Cola",
+      "category": "beverages",
+      "quantity": 1.5,
+      "unit": "Liter"
+    },
+    {
+      "itemName": "Limonade",
+      "category": "beverages",
+      "quantity": 1.5,
+      "unit": "Liter"
+    },
+    {
+      "itemName": "Spezi",
+      "category": "beverages",
+      "quantity": 0.5,
+      "unit": "Liter"
+    },
+    {
+      "itemName": "Bier",
+      "category": "beverages",
+      "quantity": 6,
+      "unit": "Flaschen"
+    },
+    {
+      "itemName": "Weißbier",
+      "category": "beverages",
+      "quantity": 6,
+      "unit": "Flaschen"
+    },
+    {
+      "itemName": "Weizenbier",
+      "category": "beverages",
+      "quantity": 6,
+      "unit": "Flaschen"
+    },
+    {
+      "itemName": "Helles",
+      "category": "beverages",
+      "quantity": 6,
+      "unit": "Flaschen"
+    },
+    {
+      "itemName": "Dunkles",
+      "category": "beverages",
+      "quantity": 6,
+      "unit": "Flaschen"
+    },
+    {
+      "itemName": "Radler",
+      "category": "beverages",
+      "quantity": 6,
+      "unit": "Flaschen"
+    },
+    {
+      "itemName": "Russ",
+      "category": "beverages",
+      "quantity": 0.5,
+      "unit": "Liter"
+    },
+    {
+      "itemName": "Augustiner",
+      "category": "beverages",
+      "quantity": 6,
+      "unit": "Flaschen"
+    },
+    {
+      "itemName": "Paulaner",
+      "category": "beverages",
+      "quantity": 6,
+      "unit": "Flaschen"
+    },
+    {
+      "itemName": "Franziskaner",
+      "category": "beverages",
+      "quantity": 6,
+      "unit": "Flaschen"
+    },
+    {
+      "itemName": "Erdinger",
+      "category": "beverages",
+      "quantity": 6,
+      "unit": "Flaschen"
+    },
+    {
+      "itemName": "Hofbräu",
+      "category": "beverages",
+      "quantity": 6,
+      "unit": "Flaschen"
+    },
+    {
+      "itemName": "Löwenbräu",
+      "category": "beverages",
+      "quantity": 6,
+      "unit": "Flaschen"
+    },
+    {
+      "itemName": "Spaten",
+      "category": "beverages",
+      "quantity": 6,
+      "unit": "Flaschen"
+    },
+    {
+      "itemName": "Apfelschorle",
+      "category": "beverages",
+      "quantity": 1,
+      "unit": "Liter"
+    },
+    {
+      "itemName": "Wein",
+      "category": "beverages",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Kaffee",
+      "category": "beverages",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "itemName": "Tee",
+      "category": "beverages",
+      "unit": "Packung"
+    },
+    {
+      "itemName": "Kakao",
+      "category": "beverages",
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "itemName": "Sekt",
+      "category": "beverages",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Energy Drink",
+      "category": "beverages",
+      "unit": "Dose"
+    },
+    {
+      "itemName": "Schokolade",
+      "category": "snacks",
+      "quantity": 100,
+      "unit": "g"
+    },
+    {
+      "itemName": "Gummibärchen",
+      "category": "snacks",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "itemName": "Kekse",
+      "category": "snacks",
+      "unit": "Packung"
+    },
+    {
+      "itemName": "Lebkuchen",
+      "category": "snacks",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "itemName": "Pfefferkuchen",
+      "category": "snacks",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "itemName": "Chips",
+      "category": "snacks",
+      "quantity": 150,
+      "unit": "g"
+    },
+    {
+      "itemName": "Salzstangen",
+      "category": "snacks",
+      "unit": "Packung"
+    },
+    {
+      "itemName": "Nüsse",
+      "category": "snacks",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "itemName": "Studentenfutter",
+      "category": "snacks",
+      "quantity": 200,
+      "unit": "g"
+    },
+    {
+      "itemName": "Schokoriegel",
+      "category": "snacks",
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Popcorn",
+      "category": "snacks",
+      "unit": "Packung"
+    },
+    {
+      "itemName": "Pizza",
+      "category": "frozen",
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Fischstäbchen",
+      "category": "frozen",
+      "unit": "Packung"
+    },
+    {
+      "itemName": "Pommes",
+      "category": "frozen",
+      "quantity": 750,
+      "unit": "g"
+    },
+    {
+      "itemName": "Eis",
+      "category": "frozen",
+      "quantity": 500,
+      "unit": "ml"
+    },
+    {
+      "itemName": "Tiefkühlgemüse",
+      "category": "frozen",
+      "quantity": 500,
+      "unit": "g"
+    },
+    {
+      "itemName": "Tiefkühlbeeren",
+      "category": "frozen",
+      "quantity": 300,
+      "unit": "g"
+    },
+    {
+      "itemName": "Lasagne",
+      "category": "frozen",
+      "unit": "Packung"
+    },
+    {
+      "itemName": "Kroketten",
+      "category": "frozen",
+      "quantity": 500,
+      "unit": "g"
     },
     {
       "itemName": "Toilettenpapier",
-      "category": "Haushalt",
+      "category": "household",
       "quantity": 8,
-      "unit": "Rollen",
-      "tags": ["household", "essential"],
-      "synonyms": ["Klopapier", "WC-Papier"],
-      "usageCount": 0,
-      "lastUsed": "2024-01-15T10:00:00Z",
-      "createdAt": "2024-01-15T10:00:00Z"
+      "unit": "Rollen"
+    },
+    {
+      "itemName": "Küchenrolle",
+      "category": "household",
+      "quantity": 4,
+      "unit": "Rollen"
+    },
+    {
+      "itemName": "Taschentücher",
+      "category": "hygiene",
+      "unit": "Packung"
+    },
+    {
+      "itemName": "Zahnpasta",
+      "category": "hygiene",
+      "unit": "Tube"
+    },
+    {
+      "itemName": "Shampoo",
+      "category": "hygiene",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Duschgel",
+      "category": "hygiene",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Seife",
+      "category": "hygiene",
+      "unit": "Stück"
     },
     {
       "itemName": "Waschmittel",
-      "category": "Haushalt",
-      "unit": "Packung",
-      "tags": ["household", "cleaning"],
-      "synonyms": ["Waschpulver", "Flüssigwaschmittel"],
-      "usageCount": 0,
-      "lastUsed": "2024-01-15T10:00:00Z",
-      "createdAt": "2024-01-15T10:00:00Z"
+      "category": "household",
+      "unit": "Packung"
+    },
+    {
+      "itemName": "Spülmittel",
+      "category": "household",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Müllbeutel",
+      "category": "household",
+      "unit": "Rolle"
+    },
+    {
+      "itemName": "Alufolie",
+      "category": "household",
+      "unit": "Rolle"
+    },
+    {
+      "itemName": "Frischhaltefolie",
+      "category": "household",
+      "unit": "Rolle"
+    },
+    {
+      "itemName": "Paprikapulver",
+      "category": "herbs-spices",
+      "unit": "Packung"
+    },
+    {
+      "itemName": "Curry",
+      "category": "herbs-spices",
+      "unit": "Packung"
+    },
+    {
+      "itemName": "Zimt",
+      "category": "herbs-spices",
+      "unit": "Packung"
+    },
+    {
+      "itemName": "Muskatnuss",
+      "category": "herbs-spices",
+      "unit": "Stück"
+    },
+    {
+      "itemName": "Basilikum",
+      "category": "herbs-spices",
+      "unit": "Bund"
+    },
+    {
+      "itemName": "Petersilie",
+      "category": "herbs-spices",
+      "unit": "Bund"
+    },
+    {
+      "itemName": "Schnittlauch",
+      "category": "herbs-spices",
+      "unit": "Bund"
+    },
+    {
+      "itemName": "Dill",
+      "category": "herbs-spices",
+      "unit": "Bund"
+    },
+    {
+      "itemName": "Oregano",
+      "category": "herbs-spices",
+      "unit": "Packung"
+    },
+    {
+      "itemName": "Thymian",
+      "category": "herbs-spices",
+      "unit": "Bund"
+    },
+    {
+      "itemName": "Rosmarin",
+      "category": "herbs-spices",
+      "unit": "Bund"
+    },
+    {
+      "itemName": "Chili",
+      "category": "herbs-spices",
+      "unit": "Packung"
+    },
+    {
+      "itemName": "Ketchup",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Senf",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Mayonnaise",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Sojasauce",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Worcestersauce",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Tabasco",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Maggi",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Brühwürfel",
+      "category": "condiments",
+      "unit": "Packung"
+    },
+    {
+      "itemName": "Pesto",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Windeln",
+      "category": "baby",
+      "unit": "Packung"
+    },
+    {
+      "itemName": "Feuchttücher",
+      "category": "baby",
+      "unit": "Packung"
+    },
+    {
+      "itemName": "Babybrei",
+      "category": "baby",
+      "unit": "Gläschen"
+    },
+    {
+      "itemName": "Kindermilch",
+      "category": "baby",
+      "unit": "Packung"
+    },
+    {
+      "itemName": "Kinderkekse",
+      "category": "baby",
+      "unit": "Packung"
+    },
+    {
+      "itemName": "Balsamico Essig",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Balsamico Dressing",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Olivenöl extra vergine",
+      "category": "pantry",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Rapsöl",
+      "category": "pantry",
+      "unit": "Liter"
+    },
+    {
+      "itemName": "Sonnenblumenöl",
+      "category": "pantry",
+      "unit": "Liter"
+    },
+    {
+      "itemName": "Italienisches Kräuteröl",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Thousand Island Dressing",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Caesar Dressing",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Senf-Dressing",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Honig-Senf Dressing",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Sojasauce süß",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Sojasauce salzig",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Kräuteressig",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Weißweinessig",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Rotweinessig",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Fischsauce",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Teriyaki Sauce",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Süß-sauer Sauce",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "BBQ Sauce",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Chili Sauce",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Pesto Rosso",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Pesto Verde",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Tapenade",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Senf Dijon",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Senf grob",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Senf mittelscharf",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Senf scharf",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Mayonnaise leicht",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Remoulade",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Curry-Ketchup",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Trüffelöl",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Walnussöl",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Sesamöl",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Chiliöl",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Knoblauchöl",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Bärlauchpesto",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Olivenpaste",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Tomatenpesto",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Soja-Ingwer Dressing",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Miso-Dressing",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Tahini",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Hoisin Sauce",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Sweet Chili Sauce",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Ponzu Sauce",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Wasabi Paste",
+      "category": "condiments",
+      "unit": "Tube"
+    },
+    {
+      "itemName": "Ketchup scharf",
+      "category": "condiments",
+      "unit": "Flasche"
+    },
+    {
+      "itemName": "Cocktail Sauce",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Salsa",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Guacamole",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Pimientos",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Kapern",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Cornichons",
+      "category": "condiments",
+      "unit": "Glas"
+    },
+    {
+      "itemName": "Sauerrahm",
+      "category": "condiments",
+      "unit": "Becher"
+    },
+    {
+      "itemName": "Crème fraîche",
+      "category": "condiments",
+      "unit": "Becher"
     }
   ],
   "metadata": {
-    "totalItems": 20,
+    "totalItems": 341,
     "regions": ["DE", "AT", "CH"],
     "languages": ["de", "en"],
-    "dataSource": "Community & Store Data",
+    "dataSource": "German Grocery Items Collection",
     "updateFrequency": "weekly"
   }
 }
