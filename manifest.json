@@ -1,6 +1,5 @@
 {
-  "version": "2024.01.18",
-  "lastUpdated": "2024-01-15T10:00:00Z",
+  "version": "2024.01.19",
   "dataUrl": "https://raw.githubusercontent.com/flooyo/shoppingData/refs/heads/main/data.json",
   "categoriesUrl": "https://raw.githubusercontent.com/flooyo/shoppingData/refs/heads/main/categories.json",
   "dataChecksum": "sha256:d1a1e618a3e26fe96aae4e7f2cf10af9168a6bfbbd03ddc620e8a82b98e1dc59",
